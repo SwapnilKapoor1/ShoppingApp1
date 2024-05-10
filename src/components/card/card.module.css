@@ -20,6 +20,10 @@
 .details{
     margin-left:30%;
 }
+.title{
+    padding-top:3px;
+    min-height:50px;
+}
 .add button{
     background-color: rgb(89, 89, 185);
     border-radius: 5px;

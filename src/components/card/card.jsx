@@ -7,16 +7,11 @@ import { arrayUnion, doc, getDoc, updateDoc } from "firebase/firestore";
 import { db } from "../../firebase";
 import { useNavigate } from "react-router-dom";
 
-
-
-
 function Card({elem}){
    const {loggedInUser}=useCheck();
    const {setCart}=useCart();
    const {page,notify}=useValue();
    const navigate=useNavigate();
-
-   
 
    const handleClick = async () => {
     if(!loggedInUser){
@@ -99,7 +94,7 @@ const handleRemove = async(elemId) => {
             <div className={style.internal}>
             <img src={elem.images[1]} alt="productImage"/>
             <div className={style.details}>
-                <p>{elem.title}</p>
+                <p className={style.title}>{elem.title}</p>
                 <p>₹ {elem.price}</p>
             </div>
             {page?<button onClick={handleClick} >Add to Cart</button>:
