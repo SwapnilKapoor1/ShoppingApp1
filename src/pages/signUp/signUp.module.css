@@ -1,0 +1,19 @@
+.container{
+    margin-left:45%;
+    padding-top:5%;
+}
+.container>*{
+    margin-bottom:2%;
+}
+input{
+    display:block;
+    border:1px solid blue;
+    border-radius: 10px;
+}
+.button{
+    margin-left:8%;
+}
+.container>h1{
+    margin-bottom: 10%;
+    margin-left:3%;
+}

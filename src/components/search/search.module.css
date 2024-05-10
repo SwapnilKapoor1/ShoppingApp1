@@ -1,0 +1,12 @@
+.search{
+    margin-left:45%;
+    padding-top:2%;
+    padding-bottom:1%;
+   
+}
+.innerSearch{
+    border:1px solid #5555d5;
+    border-radius: 5px;
+    background-color: rgb(194, 244, 246);
+    padding:10px;
+}

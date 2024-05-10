@@ -1,0 +1,22 @@
+button{
+    background-color: rgb(109, 109, 229);
+    border-radius: 10px;
+    padding:7px;
+    margin-left:20%;
+}
+.total{
+    position:fixed;
+    top:40%;
+    left:0.5%;
+    width:15%;
+    padding:2%;
+    background-color: rgb(176, 176, 227);
+    border-radius:5%;
+}
+.cartList{
+    padding-left:5%;
+    padding-right:20%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

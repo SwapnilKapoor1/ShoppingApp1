@@ -1,0 +1,21 @@
+.orderTable{
+    border-collapse: collapse;
+    width: 70%;
+}
+.orderTable th,
+.orderTable td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px; /* Adjust padding as needed */
+    color:rgb(53, 2, 2);
+    font-weight: 600;
+}
+.orderTable th:first-child,
+.orderTable td:first-child {
+    width: 180px; /* Set a minimum width for the first column */
+}
+
+.orderTable th {
+    background-color: #f2f2f2;
+    color:black;
+}

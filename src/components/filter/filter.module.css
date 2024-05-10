@@ -1,0 +1,13 @@
+.container{
+    position:fixed;
+    top:40%;
+    background-color: rgb(130, 230, 234);
+    padding:10px;
+    min-width: 12%;
+}
+.range h5{
+    margin-left:28%;
+}
+.range h6{
+    margin-left:10%;
+}

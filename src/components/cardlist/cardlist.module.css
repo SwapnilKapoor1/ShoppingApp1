@@ -1,0 +1,12 @@
+.cardList{
+    padding-left:20%;
+    padding-right:20%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.loading{
+    position:fixed;
+    top:50%;
+    left:40%;
+}

@@ -1,0 +1,36 @@
+.container{
+    /* background-color:green; */
+    min-height: 60px;
+    position: relative;
+    padding-top:1%;
+    font-size: large;
+}
+.right{
+    position:absolute;
+    right:2%;
+}
+.left{
+    position:absolute;
+    left:3%;
+}
+.left img{
+    height:40px;
+    margin-right:1px;
+}
+.right span{
+    margin-right:25px;
+}
+.right i {
+    margin-right:8px;
+}
+.link {
+    color: black;
+    text-decoration: none;
+}
+.child{
+    background-image: url("../../../public/background.jpg");
+        min-height:90vh;
+        background-size: cover; /* Adjusts the size of the background image */
+        background-position: center;
+        opacity:0.9;
+}
